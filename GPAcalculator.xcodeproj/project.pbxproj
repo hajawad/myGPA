@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215AF85A1E6A236900EE889C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215AF8591E6A236900EE889C /* AppDelegate.swift */; };
+		215AF85C1E6A236900EE889C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215AF85B1E6A236900EE889C /* ViewController.swift */; };
+		215AF85F1E6A236A00EE889C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215AF85D1E6A236A00EE889C /* Main.storyboard */; };
+		215AF8611E6A236A00EE889C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215AF8601E6A236A00EE889C /* Assets.xcassets */; };
+		215AF8641E6A236A00EE889C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215AF8621E6A236A00EE889C /* LaunchScreen.storyboard */; };
+		215AF86F1E6A236A00EE889C /* GPAcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215AF86E1E6A236A00EE889C /* GPAcalculatorTests.swift */; };
+		215AF87A1E6A236A00EE889C /* GPAcalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215AF8791E6A236A00EE889C /* GPAcalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215AF86B1E6A236A00EE889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215AF84E1E6A236900EE889C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215AF8551E6A236900EE889C;
+			remoteInfo = GPAcalculator;
+		};
+		215AF8761E6A236A00EE889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215AF84E1E6A236900EE889C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215AF8551E6A236900EE889C;
+			remoteInfo = GPAcalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		215AF8561E6A236900EE889C /* GPAcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPAcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		215AF8591E6A236900EE889C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		215AF85B1E6A236900EE889C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		215AF85E1E6A236A00EE889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		215AF8601E6A236A00EE889C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		215AF8631E6A236A00EE889C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		215AF8651E6A236A00EE889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215AF86A1E6A236A00EE889C /* GPAcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPAcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215AF86E1E6A236A00EE889C /* GPAcalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAcalculatorTests.swift; sourceTree = "<group>"; };
+		215AF8701E6A236A00EE889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215AF8751E6A236A00EE889C /* GPAcalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPAcalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215AF8791E6A236A00EE889C /* GPAcalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPAcalculatorUITests.swift; sourceTree = "<group>"; };
+		215AF87B1E6A236A00EE889C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215AF8531E6A236900EE889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215AF8671E6A236A00EE889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215AF8721E6A236A00EE889C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		215AF84D1E6A236900EE889C = {
+			isa = PBXGroup;
+			children = (
+				215AF8581E6A236900EE889C /* GPAcalculator */,
+				215AF86D1E6A236A00EE889C /* GPAcalculatorTests */,
+				215AF8781E6A236A00EE889C /* GPAcalculatorUITests */,
+				215AF8571E6A236900EE889C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		215AF8571E6A236900EE889C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215AF8561E6A236900EE889C /* GPAcalculator.app */,
+				215AF86A1E6A236A00EE889C /* GPAcalculatorTests.xctest */,
+				215AF8751E6A236A00EE889C /* GPAcalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215AF8581E6A236900EE889C /* GPAcalculator */ = {
+			isa = PBXGroup;
+			children = (
+				215AF8591E6A236900EE889C /* AppDelegate.swift */,
+				215AF85B1E6A236900EE889C /* ViewController.swift */,
+				215AF85D1E6A236A00EE889C /* Main.storyboard */,
+				215AF8601E6A236A00EE889C /* Assets.xcassets */,
+				215AF8621E6A236A00EE889C /* LaunchScreen.storyboard */,
+				215AF8651E6A236A00EE889C /* Info.plist */,
+			);
+			path = GPAcalculator;
+			sourceTree = "<group>";
+		};
+		215AF86D1E6A236A00EE889C /* GPAcalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				215AF86E1E6A236A00EE889C /* GPAcalculatorTests.swift */,
+				215AF8701E6A236A00EE889C /* Info.plist */,
+			);
+			path = GPAcalculatorTests;
+			sourceTree = "<group>";
+		};
+		215AF8781E6A236A00EE889C /* GPAcalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				215AF8791E6A236A00EE889C /* GPAcalculatorUITests.swift */,
+				215AF87B1E6A236A00EE889C /* Info.plist */,
+			);
+			path = GPAcalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215AF8551E6A236900EE889C /* GPAcalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215AF87E1E6A236A00EE889C /* Build configuration list for PBXNativeTarget "GPAcalculator" */;
+			buildPhases = (
+				215AF8521E6A236900EE889C /* Sources */,
+				215AF8531E6A236900EE889C /* Frameworks */,
+				215AF8541E6A236900EE889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPAcalculator;
+			productName = GPAcalculator;
+			productReference = 215AF8561E6A236900EE889C /* GPAcalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		215AF8691E6A236A00EE889C /* GPAcalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215AF8811E6A236A00EE889C /* Build configuration list for PBXNativeTarget "GPAcalculatorTests" */;
+			buildPhases = (
+				215AF8661E6A236A00EE889C /* Sources */,
+				215AF8671E6A236A00EE889C /* Frameworks */,
+				215AF8681E6A236A00EE889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215AF86C1E6A236A00EE889C /* PBXTargetDependency */,
+			);
+			name = GPAcalculatorTests;
+			productName = GPAcalculatorTests;
+			productReference = 215AF86A1E6A236A00EE889C /* GPAcalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		215AF8741E6A236A00EE889C /* GPAcalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215AF8841E6A236A00EE889C /* Build configuration list for PBXNativeTarget "GPAcalculatorUITests" */;
+			buildPhases = (
+				215AF8711E6A236A00EE889C /* Sources */,
+				215AF8721E6A236A00EE889C /* Frameworks */,
+				215AF8731E6A236A00EE889C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215AF8771E6A236A00EE889C /* PBXTargetDependency */,
+			);
+			name = GPAcalculatorUITests;
+			productName = GPAcalculatorUITests;
+			productReference = 215AF8751E6A236A00EE889C /* GPAcalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215AF84E1E6A236900EE889C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "AlJawad, Hashim";
+				TargetAttributes = {
+					215AF8551E6A236900EE889C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MBQ97L7Z6N;
+						ProvisioningStyle = Automatic;
+					};
+					215AF8691E6A236A00EE889C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MBQ97L7Z6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 215AF8551E6A236900EE889C;
+					};
+					215AF8741E6A236A00EE889C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MBQ97L7Z6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 215AF8551E6A236900EE889C;
+					};
+				};
+			};
+			buildConfigurationList = 215AF8511E6A236900EE889C /* Build configuration list for PBXProject "GPAcalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215AF84D1E6A236900EE889C;
+			productRefGroup = 215AF8571E6A236900EE889C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215AF8551E6A236900EE889C /* GPAcalculator */,
+				215AF8691E6A236A00EE889C /* GPAcalculatorTests */,
+				215AF8741E6A236A00EE889C /* GPAcalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215AF8541E6A236900EE889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215AF8641E6A236A00EE889C /* LaunchScreen.storyboard in Resources */,
+				215AF8611E6A236A00EE889C /* Assets.xcassets in Resources */,
+				215AF85F1E6A236A00EE889C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215AF8681E6A236A00EE889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215AF8731E6A236A00EE889C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215AF8521E6A236900EE889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215AF85C1E6A236900EE889C /* ViewController.swift in Sources */,
+				215AF85A1E6A236900EE889C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215AF8661E6A236A00EE889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215AF86F1E6A236A00EE889C /* GPAcalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215AF8711E6A236A00EE889C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215AF87A1E6A236A00EE889C /* GPAcalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215AF86C1E6A236A00EE889C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215AF8551E6A236900EE889C /* GPAcalculator */;
+			targetProxy = 215AF86B1E6A236A00EE889C /* PBXContainerItemProxy */;
+		};
+		215AF8771E6A236A00EE889C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215AF8551E6A236900EE889C /* GPAcalculator */;
+			targetProxy = 215AF8761E6A236A00EE889C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		215AF85D1E6A236A00EE889C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215AF85E1E6A236A00EE889C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		215AF8621E6A236A00EE889C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215AF8631E6A236A00EE889C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		215AF87C1E6A236A00EE889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		215AF87D1E6A236A00EE889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215AF87F1E6A236A00EE889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MBQ97L7Z6N;
+				INFOPLIST_FILE = GPAcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawad.GPAcalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		215AF8801E6A236A00EE889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MBQ97L7Z6N;
+				INFOPLIST_FILE = GPAcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawad.GPAcalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		215AF8821E6A236A00EE889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MBQ97L7Z6N;
+				INFOPLIST_FILE = GPAcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawad.GPAcalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPAcalculator.app/GPAcalculator";
+			};
+			name = Debug;
+		};
+		215AF8831E6A236A00EE889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MBQ97L7Z6N;
+				INFOPLIST_FILE = GPAcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawad.GPAcalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPAcalculator.app/GPAcalculator";
+			};
+			name = Release;
+		};
+		215AF8851E6A236A00EE889C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MBQ97L7Z6N;
+				INFOPLIST_FILE = GPAcalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawad.GPAcalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GPAcalculator;
+			};
+			name = Debug;
+		};
+		215AF8861E6A236A00EE889C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MBQ97L7Z6N;
+				INFOPLIST_FILE = GPAcalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jawad.GPAcalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GPAcalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215AF8511E6A236900EE889C /* Build configuration list for PBXProject "GPAcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215AF87C1E6A236A00EE889C /* Debug */,
+				215AF87D1E6A236A00EE889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215AF87E1E6A236A00EE889C /* Build configuration list for PBXNativeTarget "GPAcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215AF87F1E6A236A00EE889C /* Debug */,
+				215AF8801E6A236A00EE889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215AF8811E6A236A00EE889C /* Build configuration list for PBXNativeTarget "GPAcalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215AF8821E6A236A00EE889C /* Debug */,
+				215AF8831E6A236A00EE889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		215AF8841E6A236A00EE889C /* Build configuration list for PBXNativeTarget "GPAcalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215AF8851E6A236A00EE889C /* Debug */,
+				215AF8861E6A236A00EE889C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215AF84E1E6A236900EE889C /* Project object */;
+}
